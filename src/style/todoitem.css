@@ -1,0 +1,41 @@
+.todo_display {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #526D82;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 3px;
+  color: aliceblue;
+  font-size: large;
+  overflow: hidden;
+}
+.todo_title {
+  display: flex;
+  padding: 2px;
+}
+.todo_btn {
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+.todo_delete {
+    height:25px;
+    width: 50px;
+    color: white;
+    background-color: #27374D;
+    border: none;
+    padding: 1px;
+    margin-right: 10px;
+  
+}
+.todo_edit {
+    height:25px;
+    width: 40px;
+    color: white;
+    background-color: #27374D;
+    border: none;
+    padding: 1px;
+    margin-right: 10px;
+}
